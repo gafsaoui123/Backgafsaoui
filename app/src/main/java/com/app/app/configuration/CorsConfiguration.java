@@ -14,7 +14,7 @@ public class CorsConfiguration {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // Applies CORS to all endpoints
-                        .allowedOrigins("https://clever-tulumba-37fc91.netlify.app") // Only allow your frontend
+                        .allowedOrigins("https://deluxe-boba-d10ae0.netlify.app") // Only allow your frontend
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allowed HTTP methods
                         .allowedHeaders("*") // Allow all headers
                         .exposedHeaders("Authorization") // Expose Authorization header (for JWT)

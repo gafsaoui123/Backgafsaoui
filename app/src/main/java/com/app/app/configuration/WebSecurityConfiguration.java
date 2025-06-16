@@ -76,7 +76,7 @@ public class WebSecurityConfiguration {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(List.of("https://clever-tulumba-37fc91.netlify.app")); // Allow only frontend
+        configuration.setAllowedOrigins(List.of("https://deluxe-boba-d10ae0.netlify.app")); // Allow only frontend
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
         configuration.setExposedHeaders(List.of("Authorization"));
